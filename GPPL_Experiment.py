@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2020.1.2),
-    on 日  6/28 16:34:20 2020
+    on 日 10/18 16:24:52 2020
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -51,7 +51,7 @@ filename = _thisDir + os.sep + u'data/%s_%s_%s' % (expInfo['participant'], expNa
 # An ExperimentHandler isn't essential but helps with data saving
 thisExp = data.ExperimentHandler(name=expName, version='',
     extraInfo=expInfo, runtimeInfo=None,
-    originPath='/Users/Shiro/Desktop/PreferenceLearning/experiment/002.py',
+    originPath='/Users/Shiro/Desktop/GPPL_for_PsychologicalExperiment/GPPL_Experiment.py',
     savePickle=True, saveWideText=True,
     dataFileName=filename)
 # save a log file for detail verbose info
@@ -83,7 +83,7 @@ defaultKeyboard = keyboard.Keyboard()
 # Initialize components for Routine "instruction"
 instructionClock = core.Clock()
 text_2 = visual.TextStim(win=win, name='text_2',
-    text='hogehogehoge',
+    text='Spaceキーを押したら次へ進みます．',
     font='Arial',
     units='pix', pos=(0, 0), height=20, wrapWidth=None, ori=0, 
     color='white', colorSpace='rgb', opacity=1, 
